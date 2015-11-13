@@ -1,0 +1,242 @@
+#head
+{
+height:80px;
+background:gray;
+position:absolute;
+top:0px;
+left:0px;
+width:100%;
+color:red;
+font-size:60px;
+font-family:'Jokerman';
+}
+#pagebody
+{
+	position:relative;
+	top:100px;
+	width:1000px;
+	margin: 0 auto;
+
+}
+
+
+#menu
+{
+font-family: 'Monotype Corsiva',Verdana, Arial, Helvetica, sans-serif;
+float:left;
+width:20%;
+
+/* width:156px;
+ position:relative;
+ z-index:100;
+ margin-top: 0px;
+ margin-right: 0;*/
+}
+#img
+{
+width:60%;
+
+}
+#latest
+{
+width:20%;
+text-align:center;
+}
+/*****************************************STARTING OF QUICK ACCESS MENU*****************************************************/
+#menu ul
+{
+	/*margin:0;*/
+	list-style-type:none;
+	position:relative;
+	top:0;
+	margin-left:-40px;
+	/*color:#590d00;*/
+}
+#menu ul li ul
+{
+visibility:hidden;
+position:absolute;
+left:180px;
+top:0px;
+width:120px;
+height:0;
+/*overflow:hidden;
+ filter: progid:DXImageTransform.Microsoft.Alpha(opacity=95);
+ -moz-opacity: 0.95;
+ opacity:0.95;*/
+}
+
+#menu ul li 
+{
+	/*float:left;*/
+	position:relative;
+	text-decoration:none;
+}
+#menu ul li a
+{
+	display:block;
+	width:120px;
+	color:#6240e1;
+	background:transparent;
+	font-size:24px;
+	text-decoration:none;
+	font-weight:bold;
+	line-height:16px;
+	padding-left:20px;
+	padding-bottom:8px;
+	padding-top:8px;
+	
+}
+/* html #menu ul li a, * html #menu ul li a:visited {
+ width:176px;
+ width:136px;
+}*/
+#menu table
+{
+	border-collapse:collapse;
+	/*border:0;*/
+	margin:-1px;
+ /*padding: 0;*/
+}
+#menu ul  li:hover a,
+#menu ul li a:hover
+{
+text-transform:capitalize;
+background:#6240e1;
+ color:#fff
+}
+#menu ul li:hover ul,
+#menu ul li a:hover ul 
+{
+	visibility:visible;
+	overflow:visible;
+	height:auto;
+	position:absolute;
+	padding-left:0px;
+	width:120px;
+	/*border:1px solid #606;*/
+}
+#menu ul li:hover ul li a,
+#menu ul li a:hover ul il a
+{
+	/*background:transparent;
+	display:block;
+	padding-left:20px;
+	line-height:14px;*/
+}
+/*color of fother levels on hovering*/
+#menu ul li ul li:hover a
+{
+	color:#fff;
+	background:#512ae2;
+}
+/*END color of other levels*/
+
+/*******3rd level**************8*********************************/
+#menu ul li:hover ul li ul,
+#menu ul li a:hover ul li ul
+{
+visibility:hidden;
+overflow:hidden;
+position:absolute;
+left:180px;
+ /*top:0;
+ left:147px;
+ 
+ height:0;*/
+}
+#menu ul li:hover ul li:hover ul,
+#menu ul li a:hover ul li a:hover ul
+{
+visibility:visible;
+overflow:visible;
+}
+#menu ul li:hover ul li:hover ul li:hover a,
+#menu ul li a:hover ul il a:hover ul li a:hover
+{
+	color:red;
+	background:#512ae2;
+}
+/***************************************************************************QUIC ACCESS ENDS *********************************************/
+#img table
+{
+border:solid 8px blue;
+border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+#img table a
+{
+	color:black;
+}
+input
+{
+border:solid 1px black;
+border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+background-color:#606;
+color:white;
+	font-weight:bold;
+}
+input:hover
+{
+	font-weight:bold;
+	background-color:white;
+	color:blue;
+}
+#latest a,#latest  a:visited
+{
+color:black;
+}
+#latest  a:hover,#latest  a:visited:hover
+{
+	text-transform:Capitalize;
+}
+#footer
+{
+	text-align:center;
+	background:gray;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+}
+#mostimg
+{
+	background-image:url('mostpop.jpg');
+	background-repeat:no-repeat;
+	position:relative;
+	top:0px;
+	left:0px;
+	height:30px;
+	
+	}
+#latestimg
+{
+	background-image:url('latest.jpg');
+	background-repeat:no-repeat;
+	position:relative;
+	top:0px;
+	left:0px;
+	height:30px;
+}
+#relatedimg
+{
+	background-image:url('related.jpg');
+	background-repeat:no-repeat;
+	position:relative;
+	top:0px;
+	left:0px;
+	height:30px;
+}
+#quickimg
+{
+	background-image:url('qck.jpg');
+	background-repeat:no-repeat;
+	position:relative;
+	top:0px;
+	left:0px;
+	height:30px;
+
+}
